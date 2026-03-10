@@ -24,7 +24,7 @@ Identify a realistic personalization scenario (e.g., product recommendations bas
 2.Select Prompt Types
 Choose three distinct prompting strategies:
 
-Straightforward Prompt Tabular Format Prompt Missing Word Prompt
+(zero-shot, few-shot, chain-of-thought, role-based)
 
 4.Design Prompts
 Write specific prompt examples aligned with the use case for each strategy.
@@ -42,6 +42,8 @@ Assess each output based on: Relevance Coherence Customization Depth Responsiven
 Identify the best-performing combinations and suggest practical applications.
 
 PARAGRAPH BEFORE APPLYING PROMPTING TECHNIQUES:
+
+
 Blockchain technology is a decentralized digital ledger used to record transactions across multiple computers in a secure and transparent way. Unlike traditional databases controlled by a central authority, blockchain operates on a distributed network where every participant maintains a copy of the ledger. This structure ensures that no single entity has complete control over the data.
 
 Each record in a blockchain is stored in a unit called a block. Blocks contain a list of transactions, a timestamp, and a unique cryptographic hash that links the block to the previous one. This chaining of blocks forms a continuous sequence, creating the blockchain. Because each block references the previous block’s hash, altering information in one block would require changing all subsequent blocks, which is extremely difficult. This feature makes blockchain highly secure and resistant to tampering.
@@ -54,4 +56,39 @@ Today, blockchain is used in areas such as supply chain management, healthcare, 
 
 Despite its advantages, blockchain also faces challenges. These include scalability issues, high energy consumption in some consensus mechanisms, and regulatory uncertainties in many countries. Researchers and developers are actively working on solutions such as improved consensus algorithms and more energy-efficient blockchain networks.
 
-Overall, blockchain technology offers a promising approach to secure, transparent, and decentralized data management. As the technology continues to evolve, it has the potential to transform industries by improving trust, efficiency, and data security.        
+Overall, blockchain technology offers a promising approach to secure, transparent, and decentralized data management. As the technology continues to evolve, it has the potential to transform industries by improving trust, efficiency, and data security.      
+
+<h1>USING CHATGPT</h1>
+
+1. Zero-Shot Summary
+
+Blockchain technology is a decentralized digital ledger that records transactions securely across multiple computers. Instead of relying on a central authority such as a bank or government, the system operates on a distributed network where each participant maintains a copy of the ledger. Transactions are stored in blocks, and each block contains a timestamp, transaction data, and a cryptographic hash that links it to the previous block. This connection forms a continuous chain of blocks, making it extremely difficult to modify past records because changing one block would require altering all subsequent blocks.
+
+A key feature of blockchain is its decentralized validation process. Computers in the network, known as nodes, verify transactions through consensus mechanisms such as Proof of Work and Proof of Stake before they are added to the chain. Blockchain gained global attention with the creation of Bitcoin by Satoshi Nakamoto in 2008.
+
+Today, blockchain is used beyond cryptocurrencies in areas like supply chain management, healthcare, finance, and digital identity systems. Although it offers transparency and security, challenges such as scalability, energy consumption, and regulatory concerns still need to be addressed.
+
+2. Few-Shot Summary
+
+Blockchain technology functions as a decentralized system for recording and verifying digital transactions across a distributed network. Unlike traditional centralized databases, every participant in the network holds a copy of the ledger, which increases transparency and reduces the risk of manipulation. Information is stored in blocks containing transaction data, timestamps, and cryptographic hashes that link each block to the previous one. This chain structure ensures data integrity because altering a single block would require modifying every subsequent block, which is extremely difficult.
+
+The system relies on nodes that validate transactions through consensus mechanisms such as Proof of Work or Proof of Stake. These mechanisms allow participants to agree on the legitimacy of transactions before they are permanently recorded. Blockchain first became widely known with Bitcoin, introduced in 2008 by Satoshi Nakamoto.
+
+Beyond cryptocurrencies, blockchain technology is now applied in industries including healthcare, finance, supply chain management, and identity verification. For example, it can track goods across supply chains or securely manage patient data. Despite its advantages, issues like scalability, energy consumption, and regulatory uncertainty remain significant challenges.
+
+3. Chain-of-Thought Summary
+
+Blockchain technology is designed to securely record and manage digital transactions in a decentralized manner. The system operates on a distributed network where multiple computers maintain identical copies of a shared ledger, removing the need for a central authority. Transactions are grouped into blocks that include transaction data, timestamps, and cryptographic hashes linking them to previous blocks. These links form a chain that protects data integrity because altering any block would require modifying every block after it.
+
+To ensure accuracy, network participants called nodes verify transactions through consensus mechanisms such as Proof of Work or Proof of Stake. These processes allow the network to collectively confirm valid transactions before adding them to the blockchain. The technology became popular with the creation of Bitcoin in 2008 by Satoshi Nakamoto.
+
+Today, blockchain has applications beyond cryptocurrency, including supply chain tracking, secure healthcare record management, financial services, and digital identity verification. However, the technology still faces obstacles such as scalability limitations, high energy consumption in certain consensus methods, and unclear regulations. Researchers are actively developing solutions to overcome these issues and improve blockchain efficiency.
+
+4. Role-Based Summary (Professor Style)
+
+Blockchain technology is a distributed digital ledger that records transactions across multiple computers in a secure and transparent manner. Unlike traditional centralized systems, blockchain operates on a decentralized network where each participant maintains a copy of the ledger. Transactions are organized into blocks that contain transaction details, timestamps, and cryptographic hashes linking them to previous blocks. This structure creates a secure chain of records, making it extremely difficult to modify past information.
+
+The validation of transactions is performed by network nodes using consensus mechanisms such as Proof of Work and Proof of Stake. These methods ensure that all participants agree on the accuracy of the data before it becomes part of the blockchain. The technology first gained global attention through Bitcoin, introduced in 2008 by Satoshi Nakamoto.
+
+Beyond cryptocurrencies, blockchain is now used in fields such as healthcare, finance, supply chain management, and digital identity verification. While it provides improved transparency and security, challenges such as scalability, high energy consumption, and regulatory uncertainty must still be addressed as the technology continues to evolve.
+
