@@ -42,7 +42,7 @@ Assess each output based on: Relevance Coherence Customization Depth Responsiven
 8.Compare and Recommend
 Identify the best-performing combinations and suggest practical applications.
 
-PARAGRAPH BEFORE APPLYING PROMPTING TECHNIQUES:
+<h4>PARAGRAPH BEFORE APPLYING PROMPTING TECHNIQUES:</h4>
 
 
 Blockchain technology is a decentralized digital ledger used to record transactions across multiple computers in a secure and transparent way. Unlike traditional databases controlled by a central authority, blockchain operates on a distributed network where every participant maintains a copy of the ledger. This structure ensures that no single entity has complete control over the data.
