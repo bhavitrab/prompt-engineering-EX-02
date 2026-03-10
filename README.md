@@ -17,7 +17,8 @@ Speed
 
 User experience
 
-Algorithm
+ALGORITHM:
+
 1.Define Use Case
 Identify a realistic personalization scenario (e.g., product recommendations based on user behavior).
 
