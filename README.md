@@ -129,11 +129,21 @@ A Chain-of-Thought analysis follows the logical progression of how blockchain fu
 
 From the perspective of a Technical Strategist, blockchain is a paradigm shift in how we handle data "provenance" and security. It is not merely a database; it is a trust protocol. For enterprise stakeholders, the primary value proposition lies in the reduction of fraud and the increase in auditability. In supply chain management, for instance, blockchain allows for real-time tracking of goods from the manufacturer to the consumer, ensuring that every handoff is verified and recorded. In healthcare, it addresses the critical need for interoperability by allowing authorized access to patient records while maintaining strict privacy via encryption. While we are currently navigating the "scalability trilemma"—the challenge of balancing security, decentralization, and speed—the ongoing development of more energy-efficient algorithms suggests that the technology is maturing rapidly. As a strategist, I view blockchain as the essential infrastructure for a future where data must be both highly accessible and completely unhackable, fundamentally transforming how industries operate.
 
-| Prompt Technique | Platform | Accuracy | Coherence | Simplicity | Speed | UX |
-| ---------------- | -------- | -------- | --------- | ---------- | ----- | -- |
-| Zero-shot        | ChatGPT  | 4        | 4         | 4          | 5     | 4  |
-| Few-shot         | Claude   | 5        | 5         | 4          | 4     | 4  |
-| Chain-of-Thought | Gemini   | 5        | 5         | 4          | 3     | 5  |
+| Prompt Technique | Platform      | Accuracy | Coherence | Simplicity | Speed | UX |
+| ---------------- | ------------- | -------- | --------- | ---------- | ----- | -- |
+| Zero-Shot        | ChatGPT       | 4        | 4         | 4          | 5     | 4  |
+| Zero-Shot        | Claude        | 4        | 4         | 4          | 4     | 4  |
+| Zero-Shot        | Google Gemini | 4        | 5         | 4          | 4     | 4  |
+| Few-Shot         | ChatGPT       | 4        | 4         | 4          | 5     | 4  |
+| Few-Shot         | Claude        | 5        | 5         | 4          | 4     | 4  |
+| Few-Shot         | Google Gemini | 5        | 5         | 4          | 3     | 5  |
+| Chain-of-Thought | ChatGPT       | 5        | 5         | 4          | 4     | 4  |
+| Chain-of-Thought | Claude        | 5        | 5         | 4          | 4     | 4  |
+| Chain-of-Thought | Google Gemini | 5        | 5         | 4          | 3     | 5  |
+| Role-Based       | ChatGPT       | 4        | 5         | 4          | 5     | 4  |
+| Role-Based       | Claude        | 5        | 5         | 4          | 4     | 4  |
+| Role-Based       | Google Gemini | 5        | 5         | 4          | 3     | 5  |
+
 
 
 Result:
